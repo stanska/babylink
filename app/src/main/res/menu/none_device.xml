@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.elikon.babylink.NoneDeviceActivity" >
+    <item android:id="@+id/parent_device"
+        android:title="@string/parent_device"
+        android:showAsAction="never" />
+    <item android:id="@+id/child_device"
+        android:title="@string/child_device"
+        android:showAsAction="never" />
+    <item android:id="@+id/connection_settings"
+        android:title="@string/connection_settings"
+        android:showAsAction="never" />
+</menu>

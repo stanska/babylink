@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BabyLink</string>
+    <string name="hello_world_child">Hello world Child Device!</string>
+    <string name="hello_world_parent">Hello world Parent Device!</string>
+    <string name="select_device">Select Device</string>
+    <string name="child_device">Child Device</string>
+    <string name="parent_device">Parent Device</string>
+    <string name="connection_settings">Connection Settings</string>
+    <string name="connection_type">Connection Type</string>
+    <string name="connection_type_summary">Connection type used for communication between parent and child device</string>
+    <string name="bluetooth_settings">Bluetooth Settings</string>
+    <string name="wireless_settings">Wireless Settings</string>
+    <string name="wifi_port">Port</string>
+    <string name="wifi_address">Address</string>
+
+    <string-array name="pref_syncConnectionTypes_entries">
+        <item>bluetooth</item>
+        <item>wireless</item>
+    </string-array>
+
+    <string name="title_activity_child_device">ChildDevice</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_parent_device">ParentDevice</string>
+    <string name="title_activity_none_device">NoneDeviceActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

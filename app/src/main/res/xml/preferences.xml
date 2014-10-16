@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+    android:key="pref_connectionType"
+    android:title="@string/connection_type"
+    android:dialogTitle="@string/connection_type"
+    android:entries="@array/pref_syncConnectionTypes_entries"
+    android:entryValues="@array/pref_syncConnectionTypes_entries"
+    android:summary="@string/connection_type_summary"/>
+    <Preference
+        android:key="pref_bluetooth"
+        android:title="@string/bluetooth_settings">
+    </Preference>
+    <PreferenceCategory
+        android:key="wireless_settings_key"
+        android:title="@string/wireless_settings">
+        <EditTextPreference
+            android:key="wireless_settings_ip_key"
+            android:title="@string/wifi_address"
+            android:defaultValue="true"/>
+        <EditTextPreference
+            android:key="wireless_settings_port_key"
+            android:title="@string/wifi_port"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+</PreferenceScreen>

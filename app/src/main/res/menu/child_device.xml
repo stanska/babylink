@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main" >
+    <item android:id="@+id/parent_device"
+        android:title="@string/parent_device"
+        android:showAsAction="never" />
+    <item android:id="@+id/connection_settings"
+        android:title="@string/connection_settings"
+        android:showAsAction="never" />
+</menu>
